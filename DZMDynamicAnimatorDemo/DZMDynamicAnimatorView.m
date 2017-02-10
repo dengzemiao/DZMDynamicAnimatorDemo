@@ -89,6 +89,11 @@
     _isLoading = isLoading;
     
     self.isStartLoading = isLoading;
+    
+    if (isLoading) {
+        
+        [self setNeedsLayout];
+    }
 }
 
 - (UIBezierPath *)GetPath
@@ -125,7 +130,7 @@
     [super drawRect:rect];
     
     if (self.isLoading) {
-      
+        
         [self push];
         
     }else{

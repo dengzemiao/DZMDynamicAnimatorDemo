@@ -74,6 +74,19 @@
     }
 }
 
+// 准备松手的时候
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
+{
+    CGFloat offset = -scrollView.contentOffset.y - DZMSpace_H;
+    
+    CGFloat min_Y = DZMMin_Y;
+    
+    if (offset >= min_Y) {
+        
+        self.dynamicAnimatorView.isLoading = YES;
+    }
+}
+
 // 松手的时候
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
@@ -84,8 +97,6 @@
     CGFloat min_Y = DZMMin_Y;
     
     if (offset >= min_Y) {
-        
-        self.dynamicAnimatorView.isLoading = YES;
         
         [UIView animateWithDuration:0.25 delay:0.1f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
             
