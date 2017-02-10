@@ -87,7 +87,7 @@
         
         self.dynamicAnimatorView.isLoading = YES;
         
-        [UIView animateWithDuration:0.25 delay:0.1f usingSpringWithDamping:0.5f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        [UIView animateWithDuration:0.25 delay:0.1f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
             
             self.dynamicAnimatorView.controlPoint.center = CGPointMake(self.dynamicAnimatorView.frame.size.width / 2, DZMDynamicAnimatorView_H);
             
