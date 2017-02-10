@@ -112,6 +112,8 @@
         
         self.snapBehavior = [[UISnapBehavior alloc] initWithItem:self.ball snapToPoint:CGPointMake(self.selfFrame.size.width / 2, self.selfFrame.size.height - (DZMMin_Y + DZMSpace_H)/2)];
 
+        self.snapBehavior.damping = 0.5;
+        
         [self.animator addBehavior:self.snapBehavior];
 
         [self startLoading];
