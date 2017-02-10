@@ -28,13 +28,6 @@
 @property (nonatomic, assign) BOOL isLoading;
 
 /**
- 设置位置
-
- @param offset contentOffset
- */
-//- (void)setContentOffset:(CGPoint)offset;
-
-/**
  弹射动画
  */
 - (void)push;
