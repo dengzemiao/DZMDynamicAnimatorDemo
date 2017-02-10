@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF9D566D1E49C288008C409E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D566C1E49C288008C409E /* main.m */; };
+		AF9D56701E49C288008C409E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D566F1E49C288008C409E /* AppDelegate.m */; };
+		AF9D56731E49C288008C409E /* DZMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D56721E49C288008C409E /* DZMTableViewController.m */; };
+		AF9D56781E49C288008C409E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56771E49C288008C409E /* Assets.xcassets */; };
+		AF9D567B1E49C288008C409E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56791E49C288008C409E /* LaunchScreen.storyboard */; };
+		AF9D56861E49C288008C409E /* DZMDynamicAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D56851E49C288008C409E /* DZMDynamicAnimatorDemoTests.m */; };
+		AF9D56911E49C288008C409E /* DZMDynamicAnimatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D56901E49C288008C409E /* DZMDynamicAnimatorDemoUITests.m */; };
+		AF9D56A01E49C3E9008C409E /* DZMDynamicAnimatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D569F1E49C3E9008C409E /* DZMDynamicAnimatorView.m */; };
+		AF9D56A31E49C3FF008C409E /* DZMBall.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D56A21E49C3FF008C409E /* DZMBall.m */; };
+		AF9D56A91E49C8D2008C409E /* DZMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9D56A81E49C8D2008C409E /* DZMTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9D56821E49C288008C409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9D56601E49C288008C409E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9D56671E49C288008C409E;
+			remoteInfo = DZMDynamicAnimatorDemo;
+		};
+		AF9D568D1E49C288008C409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9D56601E49C288008C409E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9D56671E49C288008C409E;
+			remoteInfo = DZMDynamicAnimatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF9D56681E49C288008C409E /* DZMDynamicAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZMDynamicAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9D566C1E49C288008C409E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF9D566E1E49C288008C409E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF9D566F1E49C288008C409E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF9D56711E49C288008C409E /* DZMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZMTableViewController.h; sourceTree = "<group>"; };
+		AF9D56721E49C288008C409E /* DZMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMTableViewController.m; sourceTree = "<group>"; };
+		AF9D56771E49C288008C409E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9D567A1E49C288008C409E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF9D567C1E49C288008C409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9D56811E49C288008C409E /* DZMDynamicAnimatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMDynamicAnimatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9D56851E49C288008C409E /* DZMDynamicAnimatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMDynamicAnimatorDemoTests.m; sourceTree = "<group>"; };
+		AF9D56871E49C288008C409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9D568C1E49C288008C409E /* DZMDynamicAnimatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMDynamicAnimatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9D56901E49C288008C409E /* DZMDynamicAnimatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZMDynamicAnimatorDemoUITests.m; sourceTree = "<group>"; };
+		AF9D56921E49C288008C409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9D569E1E49C3E9008C409E /* DZMDynamicAnimatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMDynamicAnimatorView.h; sourceTree = "<group>"; };
+		AF9D569F1E49C3E9008C409E /* DZMDynamicAnimatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMDynamicAnimatorView.m; sourceTree = "<group>"; };
+		AF9D56A11E49C3FF008C409E /* DZMBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMBall.h; sourceTree = "<group>"; };
+		AF9D56A21E49C3FF008C409E /* DZMBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMBall.m; sourceTree = "<group>"; };
+		AF9D56A71E49C8D2008C409E /* DZMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZMTableViewCell.h; sourceTree = "<group>"; };
+		AF9D56A81E49C8D2008C409E /* DZMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZMTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9D56651E49C288008C409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D567E1E49C288008C409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D56891E49C288008C409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF9D565F1E49C288008C409E = {
+			isa = PBXGroup;
+			children = (
+				AF9D566A1E49C288008C409E /* DZMDynamicAnimatorDemo */,
+				AF9D56841E49C288008C409E /* DZMDynamicAnimatorDemoTests */,
+				AF9D568F1E49C288008C409E /* DZMDynamicAnimatorDemoUITests */,
+				AF9D56691E49C288008C409E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9D56691E49C288008C409E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D56681E49C288008C409E /* DZMDynamicAnimatorDemo.app */,
+				AF9D56811E49C288008C409E /* DZMDynamicAnimatorDemoTests.xctest */,
+				AF9D568C1E49C288008C409E /* DZMDynamicAnimatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9D566A1E49C288008C409E /* DZMDynamicAnimatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D566E1E49C288008C409E /* AppDelegate.h */,
+				AF9D566F1E49C288008C409E /* AppDelegate.m */,
+				AF9D56771E49C288008C409E /* Assets.xcassets */,
+				AF9D56791E49C288008C409E /* LaunchScreen.storyboard */,
+				AF9D567C1E49C288008C409E /* Info.plist */,
+				AF9D566B1E49C288008C409E /* Supporting Files */,
+				AF9D569E1E49C3E9008C409E /* DZMDynamicAnimatorView.h */,
+				AF9D569F1E49C3E9008C409E /* DZMDynamicAnimatorView.m */,
+				AF9D56A11E49C3FF008C409E /* DZMBall.h */,
+				AF9D56A21E49C3FF008C409E /* DZMBall.m */,
+				AF9D56711E49C288008C409E /* DZMTableViewController.h */,
+				AF9D56721E49C288008C409E /* DZMTableViewController.m */,
+				AF9D56A71E49C8D2008C409E /* DZMTableViewCell.h */,
+				AF9D56A81E49C8D2008C409E /* DZMTableViewCell.m */,
+			);
+			path = DZMDynamicAnimatorDemo;
+			sourceTree = "<group>";
+		};
+		AF9D566B1E49C288008C409E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D566C1E49C288008C409E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF9D56841E49C288008C409E /* DZMDynamicAnimatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D56851E49C288008C409E /* DZMDynamicAnimatorDemoTests.m */,
+				AF9D56871E49C288008C409E /* Info.plist */,
+			);
+			path = DZMDynamicAnimatorDemoTests;
+			sourceTree = "<group>";
+		};
+		AF9D568F1E49C288008C409E /* DZMDynamicAnimatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D56901E49C288008C409E /* DZMDynamicAnimatorDemoUITests.m */,
+				AF9D56921E49C288008C409E /* Info.plist */,
+			);
+			path = DZMDynamicAnimatorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9D56671E49C288008C409E /* DZMDynamicAnimatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9D56951E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemo" */;
+			buildPhases = (
+				AF9D56641E49C288008C409E /* Sources */,
+				AF9D56651E49C288008C409E /* Frameworks */,
+				AF9D56661E49C288008C409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZMDynamicAnimatorDemo;
+			productName = DZMDynamicAnimatorDemo;
+			productReference = AF9D56681E49C288008C409E /* DZMDynamicAnimatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9D56801E49C288008C409E /* DZMDynamicAnimatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9D56981E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemoTests" */;
+			buildPhases = (
+				AF9D567D1E49C288008C409E /* Sources */,
+				AF9D567E1E49C288008C409E /* Frameworks */,
+				AF9D567F1E49C288008C409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9D56831E49C288008C409E /* PBXTargetDependency */,
+			);
+			name = DZMDynamicAnimatorDemoTests;
+			productName = DZMDynamicAnimatorDemoTests;
+			productReference = AF9D56811E49C288008C409E /* DZMDynamicAnimatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF9D568B1E49C288008C409E /* DZMDynamicAnimatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9D569B1E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemoUITests" */;
+			buildPhases = (
+				AF9D56881E49C288008C409E /* Sources */,
+				AF9D56891E49C288008C409E /* Frameworks */,
+				AF9D568A1E49C288008C409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9D568E1E49C288008C409E /* PBXTargetDependency */,
+			);
+			name = DZMDynamicAnimatorDemoUITests;
+			productName = DZMDynamicAnimatorDemoUITests;
+			productReference = AF9D568C1E49C288008C409E /* DZMDynamicAnimatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9D56601E49C288008C409E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DZM;
+				TargetAttributes = {
+					AF9D56671E49C288008C409E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					AF9D56801E49C288008C409E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF9D56671E49C288008C409E;
+					};
+					AF9D568B1E49C288008C409E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF9D56671E49C288008C409E;
+					};
+				};
+			};
+			buildConfigurationList = AF9D56631E49C288008C409E /* Build configuration list for PBXProject "DZMDynamicAnimatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF9D565F1E49C288008C409E;
+			productRefGroup = AF9D56691E49C288008C409E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9D56671E49C288008C409E /* DZMDynamicAnimatorDemo */,
+				AF9D56801E49C288008C409E /* DZMDynamicAnimatorDemoTests */,
+				AF9D568B1E49C288008C409E /* DZMDynamicAnimatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9D56661E49C288008C409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9D567B1E49C288008C409E /* LaunchScreen.storyboard in Resources */,
+				AF9D56781E49C288008C409E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D567F1E49C288008C409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D568A1E49C288008C409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9D56641E49C288008C409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9D56A31E49C3FF008C409E /* DZMBall.m in Sources */,
+				AF9D56A91E49C8D2008C409E /* DZMTableViewCell.m in Sources */,
+				AF9D56731E49C288008C409E /* DZMTableViewController.m in Sources */,
+				AF9D56A01E49C3E9008C409E /* DZMDynamicAnimatorView.m in Sources */,
+				AF9D56701E49C288008C409E /* AppDelegate.m in Sources */,
+				AF9D566D1E49C288008C409E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D567D1E49C288008C409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9D56861E49C288008C409E /* DZMDynamicAnimatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9D56881E49C288008C409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9D56911E49C288008C409E /* DZMDynamicAnimatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9D56831E49C288008C409E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9D56671E49C288008C409E /* DZMDynamicAnimatorDemo */;
+			targetProxy = AF9D56821E49C288008C409E /* PBXContainerItemProxy */;
+		};
+		AF9D568E1E49C288008C409E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9D56671E49C288008C409E /* DZMDynamicAnimatorDemo */;
+			targetProxy = AF9D568D1E49C288008C409E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF9D56791E49C288008C409E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9D567A1E49C288008C409E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9D56931E49C288008C409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF9D56941E49C288008C409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9D56961E49C288008C409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DZMDynamicAnimatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF9D56971E49C288008C409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DZMDynamicAnimatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF9D56991E49C288008C409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZMDynamicAnimatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMDynamicAnimatorDemo.app/DZMDynamicAnimatorDemo";
+			};
+			name = Debug;
+		};
+		AF9D569A1E49C288008C409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZMDynamicAnimatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMDynamicAnimatorDemo.app/DZMDynamicAnimatorDemo";
+			};
+			name = Release;
+		};
+		AF9D569C1E49C288008C409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZMDynamicAnimatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZMDynamicAnimatorDemo;
+			};
+			name = Debug;
+		};
+		AF9D569D1E49C288008C409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZMDynamicAnimatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMDynamicAnimatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZMDynamicAnimatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9D56631E49C288008C409E /* Build configuration list for PBXProject "DZMDynamicAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D56931E49C288008C409E /* Debug */,
+				AF9D56941E49C288008C409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9D56951E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D56961E49C288008C409E /* Debug */,
+				AF9D56971E49C288008C409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF9D56981E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D56991E49C288008C409E /* Debug */,
+				AF9D569A1E49C288008C409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF9D569B1E49C288008C409E /* Build configuration list for PBXNativeTarget "DZMDynamicAnimatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9D569C1E49C288008C409E /* Debug */,
+				AF9D569D1E49C288008C409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF9D56601E49C288008C409E /* Project object */;
+}
